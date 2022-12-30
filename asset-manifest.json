@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/smart-house/static/css/main.14153ef7.css",
+    "main.js": "/smart-house/static/js/main.c2ea8416.js",
+    "static/js/787.ec78c698.chunk.js": "/smart-house/static/js/787.ec78c698.chunk.js",
+    "static/media/pexels-ksw-photographer-4018956.jpg": "/smart-house/static/media/pexels-ksw-photographer-4018956.06a28c3a91b99e77480b.jpg",
+    "static/media/pexels-julia-filirovska-7140393.jpg": "/smart-house/static/media/pexels-julia-filirovska-7140393.5ee996c121b882514589.jpg",
+    "static/media/IMG_2314.JPG": "/smart-house/static/media/IMG_2314.3ba4cd14326d42aeef21.JPG",
+    "static/media/pexels-pixabay-235994.jpg": "/smart-house/static/media/pexels-pixabay-235994.654d1e31f7abcfc21f42.jpg",
+    "static/media/Grey_Textured_Wallpapers_HD_download_desktop.jpg": "/smart-house/static/media/Grey_Textured_Wallpapers_HD_download_desktop.31f549fa9a37d5c6e941.jpg",
+    "static/media/istockphoto-545263898-170667a.jpg": "/smart-house/static/media/istockphoto-545263898-170667a.65c9c2f6a1ad84eccc0c.jpg",
+    "static/media/WallpaperDog-20361086.jpg": "/smart-house/static/media/WallpaperDog-20361086.a8942b8783831ae81c55.jpg",
+    "index.html": "/smart-house/index.html",
+    "main.14153ef7.css.map": "/smart-house/static/css/main.14153ef7.css.map",
+    "main.c2ea8416.js.map": "/smart-house/static/js/main.c2ea8416.js.map",
+    "787.ec78c698.chunk.js.map": "/smart-house/static/js/787.ec78c698.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14153ef7.css",
+    "static/js/main.c2ea8416.js"
+  ]
+}
