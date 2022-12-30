@@ -1,38 +1,705 @@
-.App {
+
+/* .App{
+  height: 100%;
+  width: 100%;
+
+} */
+body, html {
+height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.butMain{
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+}
+.LightsSwitch{
+  margin-top: 20px;
+}
+.roomBackIcon{
+  padding-right: 5px;
+
+}
+.roomsBut{
+  height: 125px;
+  width: 325px;
+  font-size: 35px;
+  color: saddlebrown;
+  background-color: rgb(138, 98, 77);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 0.5px white solid;
+}
+.controllNameCladd{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.showButtomP{
+  display: flex;
+  justify-content: flex-end;
+}
+.roomButBack{
+  height: 75px;
+  width: 175px;
+  border: none;
+  border-radius: 25px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 50px;
+  margin-top: 25px;
+  background-image: url(./pexels-ksw-photographer-4018956.jpg);
+  background-size: 100% 100%;
+  font-family: 'Times New Roman', Times, serif;  
+}
+p.TvP{
+display: inline;
+color: rgb(0, 0, 0);
+-webkit-text-stroke: 0.9px rgb(112, 110, 110);
+font-family: 'Times New Roman', Times, serif;
+}
+.AirPCss{
+  font-size: 22.5px;
+  -webkit-text-stroke: 0.75px black;
+  color: rgb(39, 140, 255);
+  display: inline-block;
+  font-family: 'Times New Roman', Times, serif;
+}
+.PowerPCss{
+  font-size: 24px;
+  color: rgb(255, 0, 0);
+-webkit-text-stroke: 0.75px rgb(0, 0, 0); 
+display: inline-block; 
+font-family: 'Times New Roman', Times, serif;
+}
+.LightsPCss{
+-webkit-text-stroke: 0.7px rgb(53, 53, 53);
+margin-right: 7px;
+font-size: 22.5px;
+color: rgb(255, 229, 60);
+display: inline;
+font-family: 'Times New Roman', Times, serif;
+}
+.addDeviceClass{
+  height: 50px;
+  width: 125px;
+  background-color: darkslategrey;
+  color: aliceblue;
+  border-radius: 20px;
+}
+.addButtomH4{
+  margin-right: 25px;
+  color: white;
+}
+.addButtomH4 a{
+  text-decoration: none;
+}
+.reactSwitch{
+  margin-left: 17.5px;
+}
+.switchDiv{
+  margin-left: 17.5px;
+}
+.TvToggleSwitch{
+  margin-left: 17.5px;
+  margin-top: 20px;
+}
+.addButtomSvg{
+  margin-right: 20px;
+}
+.roomsH2{
+  color: rgb(66, 72, 78);
   text-align: center;
+  margin-top: 100px;
+  font-size: 85px;
+  margin-left: 15px;  
+  border-radius: 50px;
+  font-family: 'Times New Roman', Times, serif;
 }
+.roomHeaderMain{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 45px;
+  font-size: 25px ;
+  font-family: m;
+  color: rgb(142, 142, 142);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tvControll p{
+font-size: 20px;
 }
+.RoomsButtons{
+  font-family: m;
+  border: goldenrod solid 2px;
+  color: goldenrod;
+  background-color: black;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  margin-left: 25px;
+  font-size: 35px;
+  text-shadow: 1px 3px 3px rgb(114, 114, 114);
+}
+.powerToggleMain{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.mainRooms{
+  background-image: url(./WallpaperDog-20361086.jpg);
+  background-size:  cover ;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 850px;
+}
+.editRoomBackround{
+  background-image: url(./IMG_2314.JPG);
+  background-size:  cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 100%;
+}
+.roomMainBackground{
+  background-image: url(./Grey_Textured_Wallpapers_HD_download_desktop.jpg);
+  background-size:  100% 100% ;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.colorSelect{
+  height: 50px;
+  width: 125px;
+  text-align: center;
+  font-size: 30px;
+  font-family: mon;
+  margin-left: 25px;
+  background-color: rgb(87, 87, 87);
+  color: white;
+  border-radius: 15px;
+  border: 1px solid white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.controllColorClass{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.showH2DevicesControll{
+  display: flex;
+  justify-content: flex-end;
+}
+.roomDevicesHeader{
+  margin-right: 55px;
+  color: wheat;
+  background-image: url(./istockphoto-545263898-170667a.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  width: 300px;
+  height: 45px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 27.5px;
+  -webkit-text-stroke: 0.5px burlywood;
+  font-family: 'Times New Roman', Times, serif;
+}
+.mainRoomH1{
+  margin-top: 0;
+  padding-top: 75px;
+  text-align: center;
+  text-shadow: 5px 5px 5px;
+  font-size: 85px;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-text-stroke: 2px rgb(190, 135, 86) ;
+  -webkit-text-fill-color: white;
+}
+.controllAll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.TvMain{
+  display: inline-block;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.roomNameClass{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-family: m;
+  font-size: 35px;
+  margin-left: 75px;
+  color:wheat;
+  width: 600px;
+  background-image: url(./pexels-julia-filirovska-7140393.jpg);
+  background-size: 100% 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: rgb(88, 48, 16) 2px solid;
+  border-right: rgb(88, 48, 16) 2px solid;
+  border-left: rgb(88, 48, 16) 2px solid;
+}
+.showName{
+  color: goldenrod;
+}
+.showNameIcon{
+  margin-left: 25px;
+  margin-right:40px ;
+}
+.roomKindClass{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: m;
+  font-size: 35px;
+  margin-left: 75px;
+  margin-top: 0;
+  padding-top: 0;
+  width: 600px;
+  height: 150px;
+  background-image: url(./pexels-julia-filirovska-7140393.jpg);
+  background-size: 100% 100%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom: rgb(88, 48, 16) 2px solid;
+  border-left: rgb(88, 48, 16) 2px solid;
+  border-right: rgb(88, 48, 16) 2px solid;
+  color: wheat;
+}
+.roomStyleCss{
+  font-size: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.showColorName{
+  margin-left: 20px;
+}
+.colorH1{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.airToggleMain{
+  background-image: url(./pexels-pixabay-235994.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+height: 200px;
+width: 200px;
+  border-radius: 50%;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+.LightsMain{
+  background-color: white;
+height: 200px;
+width: 200px;
+  border-radius: 50%;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 20px;
+  background-image: url(./pexels-pixabay-235994.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.tvControll{
+  background-color: white;
+  height: 200px;
+  width: 200px;
+    border-radius: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 20px;
+    background-image: url(./pexels-pixabay-235994.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.powerToggleMain{
+  background-color: white;
+  height: 200px;
+  width: 200px;
+    border-radius: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 20px;
+    background-image: url(./pexels-pixabay-235994.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.butMain :link{
+  text-decoration: none;
+}
+.AddBut{
+  font-family: 'Times New Roman', Times, serif;
+  height: 75px;
+  width: 75px;
+  margin-right: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  text-shadow: 1px 2px 3px black;
+  background-color:  rgb(190, 135, 86);
+  color: white;
+  border: 1.5px white solid;
+  -webkit-text-stroke: 0.555px rgb(190, 135, 86) ;
+}
+.mainControll{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.showRoomsH2Css{
+  -webkit-text-stroke: whitesmoke 1px ;
+  text-shadow: 5px 5px 5px;
+}
+.ButtomsDivClass{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.roomColorClass{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 35px;
+  width: 600px;
+  margin-left: 75px;
+  font-family: m;
+  color: wheat;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-image: url(./pexels-julia-filirovska-7140393.jpg);
+  background-size: 100% 100%;
+  border-right: rgb(88, 48, 16) 2px solid;
+border-left:rgb(88, 48, 16) 2px solid;
+border-top: none;
+}
+
+.roomScaleSelect{
+  height: 50px;
+  width: 125px;
+  text-align: center;
+  font-size: 30px;
+  font-family: mon;
+  background-color: rgb(87, 87, 87);
   color: white;
+  border-radius: 15px;
+  border: 1px white solid;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.editHeader{
+  display: inline-block;
+  margin-bottom: 50px;
+  font-size: 65px;
+  text-shadow: 3px 3px 3px rgb(111, 73, 23);
+  font-family: 'Times New Roman', Times, serif;
+}
+.RoomName{
+  font-size: 30px;
+  height: 50px;
+  width: 175px;
+  margin-right: 25px;
+  font-family: mon;
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  color: antiquewhite;
+  border-radius: 15px;
+  border: white 1.5px solid;
+  font-family: 'Times New Roman', Times, serif;
+}
+.RoomName::placeholder{
+  color: aliceblue;
+}
+.editMain{
+  text-align: center;
+  padding-top: 30px;
+  flex-direction: column;
+}
+.kindLi{
+  padding-right: 20px;
+}
+.DeviceSelectBut{
+  height: 30px;
+  width: 150px;
+  margin-top: 15px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgb(138, 98, 77);
+  color: white;
+  border: 0.25px solid white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.addDeviceDivClass{
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.controllKindClass{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.saveRoomClass{
+  height: 60px;
+  width: 175px;
+  border-radius: 50px;
+  background-color: rgb(142, 110, 79);
+  color: aliceblue;
+  border: none;
+  font-size: 30px;
+  text-shadow: 1px 3px 3px black;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.addDeviceButClass{
+height: 55px;
+width: 150px;
+border-radius: 25px;
+background-color: rgb(138, 98, 77);
+border: 0.5px white solid;
+color: white;
+font-size: 25px;
+text-shadow: 1px 2px 3px black;
+font-family: 'Times New Roman', Times, serif;
+}
+.mainControllClass{
+  height: 100%;
+  width: 50%;
+}
+.removeTv{
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+  border-radius: 15px;
+  border: none;
+  background-image: url(./istockphoto-545263898-170667a.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.removeAir{
+  height: 30px;
+  width: 100px;
+  font-size: 17.5px;
+  border-radius: 15px;
+  border: none;
+  background-image: url(./istockphoto-545263898-170667a.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  margin-left: 35px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.removeLights{
+  font-family: 'Times New Roman', Times, serif;
+  height: 30px;
+  width: 100px;
+  font-size: 17.5px;
+  border-radius: 15px;
+  border: none;
+  background-image: url(./istockphoto-545263898-170667a.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  margin-left: 35px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+}
+.removePower{
+  height: 30px;
+  width: 100px;
+  font-size: 17.5px;
+  border-radius: 15px;
+  border: none;
+  background-image: url(./istockphoto-545263898-170667a.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  margin-left: 35px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.buttomsNames{
+  display: flex;
+  justify-content: center;
+}
+.svgP{
+  display: inline;
+  margin-left: 45px;
+}
+.svgAir{
+  display: inline;
+  margin-left: 45px;
+}
+.svgPower{
+  display: inline;
+  margin-left: 45px;
+}
+.svgTv{
+  display: inline;
+  margin-left: 45px;
+}
+@media(max-width : 1200px) {
+  .mainControll{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttomsNames{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .roomKindClass{
+    margin-left: 0;
+  }
+  .mainControllClass{
+    width: 75%;
+  }
+  .roomColorClass{
+    margin-left: 0;
+  }
+  .roomNameClass{
+    margin-left: 0;
+  }
+  .controllAll{
+    display: flex;
+    flex-direction: column;
+  }
+  .LightsMain{
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .tvControll{
+    margin-top: 45px;
+    margin-bottom: 45px; 
+  }
+  .powerToggleMain{
+    margin-top: 45px;
+    margin-bottom: 45px; 
+  }
+  .airToggleMain{
+    margin-top: 45px;
+    margin-bottom: 45px; 
+  }
+  .showH2DevicesControll{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .controllColorClass{
+    display: flex;
+    justify-content: center;
+  }
+  .controllNameCladd{
+    display: flex;
+    justify-content: center;
+  }
+  .controllKindClass{
+    display: flex;
+    justify-content: center;
+  }
+  .roomKindClass{
+    font-size: 20px;
+  }
+  .AddBut{
+    margin-right: 0;
+  }
+  .roomButBack{
+    margin-right: 0;
+  }
+  .addDeviceDivClass{
+    margin-right: 0;
+  }
+  .RoomsButtons{
+    border-radius: 40px;
+    font-size: 45px;
+    margin-bottom: 25px;    
+  }
+  .roomScaleSelect{
+    height: 75px;
+    width: 150px;
+    font-size: 35px;
+    border-radius: 50px;
+    margin-top: 45px;
+  }
+  .RoomName{
+    margin-right: 0;
+    width: 200px;
+    height: 60px;
+  }
+  .roomsH2{
+    margin-left: 0;
+  }
+  .roomHeaderMain{
+    margin-left: 0;
+  }
+  .mainRooms{
+    height: 100%;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .editRoomBackround{
+    height: 800px;
+  }
+  .butMain{
+    margin-bottom: 150px;
+  }
+  .colorSelect{
+    margin-top: 45px;
+    margin-left: 0;
+    height: 75px;
+    width: 150px;
+    font-size: 35px;
+    border-radius: 50px;
+  }
+  .editMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
