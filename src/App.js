@@ -100,6 +100,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+        <Route path = '/smart-house' element={<Rooms numIndex={numIndex} roomArr={roomArr} room={room}/>}/>
         <Route path = '/' element={<Rooms numIndex={numIndex} roomArr={roomArr} room={room}/>}/>
         <Route path = '/rooms' element={<Rooms numIndex={numIndex}  room={room} roomArr={roomArr}/>}/>
           <Route path = '/editroom' element={<Editroom resetRoom={resetRoom}  updateRoomArr={updateRoomArr} room={room} changeRoomScale={changeRoomScale} changeRoomColor={changeRoomColor} changeRoomName={changeRoomName}/>}/>
