@@ -10,9 +10,11 @@ height: 100%;
   padding: 0;
 }
 .butMain{
-  margin-top: 75px;
   display: flex;
   justify-content: center;
+}
+body .mainRooms{
+height: 850px;
 }
 .LightsSwitch{
   margin-top: 20px;
@@ -156,7 +158,7 @@ font-size: 20px;
   background-size:  cover ;
   background-repeat: no-repeat;
   width: 100%;
-  height: 850px;
+  height: 100%;
 }
 .editRoomBackround{
   background-image: url(./IMG_2314.JPG);
