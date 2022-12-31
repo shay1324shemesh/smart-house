@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smart-house/static/css/main.14153ef7.css",
-    "main.js": "/smart-house/static/js/main.c2ea8416.js",
+    "main.js": "/smart-house/static/js/main.64bf599d.js",
     "static/js/787.ec78c698.chunk.js": "/smart-house/static/js/787.ec78c698.chunk.js",
     "static/media/pexels-ksw-photographer-4018956.jpg": "/smart-house/static/media/pexels-ksw-photographer-4018956.06a28c3a91b99e77480b.jpg",
     "static/media/pexels-julia-filirovska-7140393.jpg": "/smart-house/static/media/pexels-julia-filirovska-7140393.5ee996c121b882514589.jpg",
@@ -12,11 +12,11 @@
     "static/media/WallpaperDog-20361086.jpg": "/smart-house/static/media/WallpaperDog-20361086.a8942b8783831ae81c55.jpg",
     "index.html": "/smart-house/index.html",
     "main.14153ef7.css.map": "/smart-house/static/css/main.14153ef7.css.map",
-    "main.c2ea8416.js.map": "/smart-house/static/js/main.c2ea8416.js.map",
+    "main.64bf599d.js.map": "/smart-house/static/js/main.64bf599d.js.map",
     "787.ec78c698.chunk.js.map": "/smart-house/static/js/787.ec78c698.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14153ef7.css",
-    "static/js/main.c2ea8416.js"
+    "static/js/main.64bf599d.js"
   ]
 }
